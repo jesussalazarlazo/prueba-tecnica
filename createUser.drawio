@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Página-1" id="T-KmPZ6dvDXWWUWi7nhC">
+    <mxGraphModel dx="880" dy="460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-4" value="CLIENT" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="90" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_aoO4EZ7hQocaQ-a3hz-6" target="p_aoO4EZ7hQocaQ-a3hz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-6" value="API REST" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p_aoO4EZ7hQocaQ-a3hz-4" target="p_aoO4EZ7hQocaQ-a3hz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-8" value="HTTP (POST &lt;span class=&quot;hljs-operator&quot;&gt;/&lt;/span&gt;api&lt;span class=&quot;hljs-operator&quot;&gt;/&lt;/span&gt;users)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="p_aoO4EZ7hQocaQ-a3hz-10" target="p_aoO4EZ7hQocaQ-a3hz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-10" value="Proceso(Service)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-12" value="Repositorio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-14" value="BD(H2)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="530" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="p_aoO4EZ7hQocaQ-a3hz-12" target="p_aoO4EZ7hQocaQ-a3hz-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p_aoO4EZ7hQocaQ-a3hz-16" value="call&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="303" width="40" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
