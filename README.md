@@ -126,21 +126,21 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 spring.jpa.hibernate.ddl-auto=create-drop
 
 #tecnologías-utilizadas
-**Java: JDK 11 o superior
-**Spring Boot: Para la creación de la API REST
-**Maven: Para la gestión de dependencias
-**H2Dialect: Base de datos utilizada
-**Postman: Herramienta para probar la API
+Java: JDK 11 o superior
+Spring Boot: Para la creación de la API REST
+Maven: Para la gestión de dependencias
+H2Dialect: Base de datos utilizada
+Postman: Herramienta para probar la API
 
 #Personas Contribuyentes
-**Jesus Salazar Lazo - Desarrollador Principal
+Jesus Salazar Lazo - Desarrollador Principal
 
 #Personas Desarrolladoras del Proyecto
-**Jesus Salazar Lazo: Desarrollador Principal
+Jesus Salazar Lazo: Desarrollador Principal
 
 
 #Licencia
-**Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
+Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
 ### Instrucciones:
 `README.md`
