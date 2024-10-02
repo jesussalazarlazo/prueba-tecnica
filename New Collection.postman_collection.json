@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "a0013d70-4917-4e2d-9897-8a6adc7f3765",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37664001"
+	},
+	"item": [
+		{
+			"name": "prueba tecnica",
+			"item": [
+				{
+					"name": "http://localhost:8080/api/users",
+					"request": {
+						"auth": {
+							"type": "basic",
+							"basic": [
+								{
+									"key": "password",
+									"value": "9a7ce448",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"name\": \"Jesus Salazar\",\r\n\"email\": \"jesussalaz@pepe.com.pe\",\r\n\"password\": \"Jesus123\",\r\n\"phones\": [\r\n        {\r\n            \"number\": \"935602618\",\r\n            \"citycode\": \"123\",\r\n            \"countrycode\": \"5152\"\r\n        }\r\n    ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
