@@ -65,7 +65,7 @@ Este proyecto es una API REST para la gestión de usuarios, que permite crear nu
 }
 ```
 
-##Respuesta Exitosa:
+**Respuesta Exitosa**:
 
 ```
 Código de estado: 201 Created
