@@ -67,7 +67,8 @@ Este proyecto es una API REST para la gestión de usuarios, que permite crear nu
 
 **Respuesta Exitosa**:
 
-```
+
+```json
 Código de estado: 201 Created
 Cuerpo de la respuesta:
 
@@ -89,7 +90,7 @@ Cuerpo de la respuesta:
         }
     ],
     "active": true
-	}
+}
 ```
 	
  ### Errores Comunes- **
