@@ -132,14 +132,14 @@ Maven: Para la gestión de dependencias
 H2Dialect: Base de datos utilizada
 Postman: Herramienta para probar la API
 
-#Personas Contribuyentes
+## Personas Contribuyentes
 Jesus Salazar Lazo - Desarrollador Principal
 
-#Personas Desarrolladoras del Proyecto
+## Personas Desarrolladoras del Proyecto
 Jesus Salazar Lazo: Desarrollador Principal
 
 
-#Licencia
+## Licencia
 Este proyecto está bajo la Licencia MIT. Para más detalles, consulta el archivo LICENSE.
 
 ### Instrucciones:
